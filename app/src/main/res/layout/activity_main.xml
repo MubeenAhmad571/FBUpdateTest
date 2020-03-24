@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorbg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tv_one"
+        android:text="FireBase"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:paddingLeft="140dp"
+        android:paddingTop="10dp"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Document ID"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/tv_one"
+        android:id="@+id/documentIDTVTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/documentIDTVTitle"
+        android:id="@+id/documentIDET"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter the document id"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:inputType="text"
+        android:maxLength="20"
+        android:singleLine="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City Name"
+        android:id="@+id/cityNameTVTitle"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/documentIDET"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cityNameTVTitle"
+        android:id="@+id/cityNameET"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter the city name"
+        android:inputType="text"
+        android:maxLength="20"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City Details"
+        android:id="@+id/cityDetailsTVTitle"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/cityNameET"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cityDetailsTVTitle"
+        android:id="@+id/cityDetailsET"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter the city details"
+        android:inputType="text"
+        android:maxLength="20"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        />
+    <Button
+        android:layout_below="@id/cityDetailsET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_one"
+        android:text="Click To Add Values"
+        android:onClick="addValues"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_two"
+        android:layout_below="@id/btn_one"
+        android:onClick="loadValues"
+        android:text="Click To Load Values"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/text_view_data"
+        android:layout_below="@id/btn_two"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="right"
+        android:textColor="@color/colorPrimaryDark"
+        android:scrollbarSize="3dp"
+       android:scrollbarStyle="insideInset"
+        />
+
+</RelativeLayout>

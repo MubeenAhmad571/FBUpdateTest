@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "3627356852",
+    "firebase_url": "https://fbupdatetest.firebaseio.com",
+    "project_id": "fbupdatetest",
+    "storage_bucket": "fbupdatetest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3627356852:android:70c72ef438d52c1d1fbde1",
+        "android_client_info": {
+          "package_name": "com.example.fbupdatetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3627356852-qbkik7bdl3a1gqpm0ftol601v7do2tkb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fbupdatetest",
+            "certificate_hash": "5d92e69b249dc85939920aae36da7c7a234fd9f8"
+          }
+        },
+        {
+          "client_id": "3627356852-m2rmdb7bau00aahr4lvtgpa1c73enjfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv3yWgMGILjEUdoOHzNmmRhbPiCOiZ_MY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3627356852-m2rmdb7bau00aahr4lvtgpa1c73enjfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
